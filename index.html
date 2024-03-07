@@ -21,15 +21,39 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <img src="./assets/images/logo.svg" alt="Frontend Mentor logo" />
+            <img src="./assets/images/logo.svg" alt="News logo" />
           </div>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">New</a></li>
-            <li><a href="#">Popular</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">Categories</a></li>
-          </ul>
+          <div class="navbar">
+            <img
+              src="./assets/images/icon-menu.svg"
+              alt="hamburger icon"
+              class="hamburger"
+            />
+            <div class="navbar__mobile">
+              <img
+                src="./assets/images/icon-menu-close.svg"
+                alt="close icon"
+                class="close"
+              />
+
+              <ul class="navbar__content">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+              </ul>
+            </div>
+            <div class="navbar__desktop">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -53,11 +77,15 @@
               />
             </div>
             <div class="hero__text">
-              <h1>Discover the best news stories</h1>
-              <p>
-                Get the latest news on technology, business, and more. We bring
-                you the most important stories from around the world.
-              </p>
+              <h1>The Bright Future of Web 3.0?</h1>
+              <div>
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="#">Read More</a>
+              </div>
             </div>
           </section>
 
@@ -84,39 +112,44 @@
           </section>
         </div>
 
-        <article class="features">
-          <div class="features__image">
-            <img src="assets/images/image-retro-pcs.jpg" alt="retro pcs" />
-          </div>
-          <div class="features__content">
-            <h2>01</h2>
-            <h3>Reviving Retro PCs</h3>
-            <p>What happens when old PCs are given modern upgrades?</p>
-          </div>
-        </article>
-        <article class="features">
-          <div class="features__image">
-            <img
-              src="assets/images/image-top-laptops.jpg"
-              alt="laptop keyboard"
-            />
-          </div>
-          <div class="features__content">
-            <h2>02</h2>
-            <h3>Top 10 Laptops of 2022</h3>
-            <p>Our best picks for various needs and budgets.</p>
-          </div>
-        </article>
-        <article class="features">
-          <div class="features__image">
-            <img src="assets/images/image-gaming-growth.jpg" alt="gaming pad" />
-          </div>
-          <div class="features__content">
-            <h2>03</h2>
-            <h3>The Growth of Gaming</h3>
-            <p>How the pandemic has sparked fresh opportunities.</p>
-          </div>
-        </article>
+        <section class="featured">
+          <article class="feature">
+            <div class="feature__image">
+              <img src="assets/images/image-retro-pcs.jpg" alt="retro pcs" />
+            </div>
+            <div class="feature__content">
+              <h2>01</h2>
+              <h3>Reviving Retro PCs</h3>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </article>
+          <article class="feature">
+            <div class="feature__image">
+              <img
+                src="assets/images/image-top-laptops.jpg"
+                alt="laptop keyboard"
+              />
+            </div>
+            <div class="feature__content">
+              <h2>02</h2>
+              <h3>Top 10 Laptops of 2022</h3>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </article>
+          <article class="feature">
+            <div class="feature__image">
+              <img
+                src="assets/images/image-gaming-growth.jpg"
+                alt="gaming pad"
+              />
+            </div>
+            <div class="feature__content">
+              <h2>03</h2>
+              <h3>The Growth of Gaming</h3>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </article>
+        </section>
       </div>
     </main>
   </body>
