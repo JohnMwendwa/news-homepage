@@ -10,13 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,4 +23,25 @@ Users should be able to:
 
 ### Screenshot
 
-![Project ](./screenshot.jpg)
+![Project screenshot](design/desktop-design.jpg)
+
+### Links
+
+- Solution URL: [https://github.com/JohnMwendwa/news-homepage](https://github.com/JohnMwendwa/news-homepage)
+- Live Site URL: [https://johnmwendwa.github.io/news-homepage](https://johnmwendwa.github.io/news-homepage/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript
+
+## Author
+
+- Website - [John Mwendwa](https://johnmwendwa.vercel.app/)
+- Frontend Mentor - [@JohnMwendwa](https://www.frontendmentor.io/profile/JohnMwendwa)
